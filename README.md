@@ -1,7 +1,37 @@
-# My Linux Dotfiles
+# obag - dotfiles
+My config files for linux programs eg. fish, vim, kitty.
 
-These are meant to be used with stow 
+## Installation
 
+### 1. Install Dependencies
+
+**Ubuntu Based**
+```sh
+sudo apt install git fish stow
+```
+
+**Fedora Based**
+```sh
+sudo dnf install git fish stow
+```
+
+**Arch Based**
+```sh
+sudo pacman -S git fish stow
+```
+
+I use [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) to theme my shell. To install:
+```sh
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+
+I use the theme bobthefish. To install:
+```sh
+omf install bobthefish
+```
+
+### 2. Install dotfiles
+Just run:
 ```sh
 stow .
 ```
