@@ -7,7 +7,7 @@ My config files for linux programs eg. fish, vim, kitty.
 
 **Ubuntu Based**
 ```sh
-sudo apt install git fish stow
+sudo apt install git fish stow fastfetch
 ```
 
 **Fedora Based**
