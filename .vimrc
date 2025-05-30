@@ -1,4 +1,4 @@
-# install vim-plug (https://github.com/junegunn/vim-plug)
+" install vim-plug (https://github.com/junegunn/vim-plug)
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -6,7 +6,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-# install plugins
+" install plugins
 
 call plug#begin()
 
