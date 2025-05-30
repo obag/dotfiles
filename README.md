@@ -39,7 +39,7 @@ git clone https://github.com/obag/dotfiles
 
 Stow the files:
 ```sh
-stow .
+stow . --adopt
 ```
 
 
