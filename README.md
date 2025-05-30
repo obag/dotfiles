@@ -39,6 +39,7 @@ git clone https://github.com/obag/dotfiles
 
 Stow the files:
 ```sh
+cd dotfiles
 stow . --adopt
 git restore .
 ```
