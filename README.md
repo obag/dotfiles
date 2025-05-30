@@ -31,7 +31,13 @@ omf install bobthefish
 ```
 
 ### 2. Install dotfiles
-Just run:
+clone the repository to your home directory:
+```
+cd
+git clone https://github.com/obag/dotfiles
+```
+
+Stow the files:
 ```sh
 stow .
 ```
