@@ -44,4 +44,14 @@ stow . --adopt
 git restore .
 ```
 
+## Configuration
 
+### Change shell to fish
+
+```sh
+# check path to fish shell
+cat /etc/shells
+
+# change shell
+chsh -s /usr/bin/fish
+```
